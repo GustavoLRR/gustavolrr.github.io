@@ -4,9 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>Hello World!</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+        main {
+            position: relative;
+            height:100vh;
+            background-image: url('bg-space.webp');
+            background-size: cover;
+        }
+        section {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            height: 125px;  
+            width: 125px;
+            box-shadow: 0px 0px 10px rgba(245, 245, 245, 0.548);
+            border-radius: 50%;
+            background-image: url('terrapq.png');
+            background-repeat: no-repeat;
+            background-position: center center;
+            transform: translate(-50%, -50%);
+            transition-duration: 0.2s;
+
+        }
+
+     section:hover {
+        height: 700px;
+        width: 700px;
+        background-image: url('terra.png');
+        background-position: center center;
+        border-radius: 50%;
+        box-shadow: 0px 0px 30px whitesmoke;
+        transition-duration: 0.5s;
+
+     }
+    
+     section:hover > article > p {
+         color: rgba(0, 0, 0, 0.63);
+         text-align: center;
+         text-shadow: 0px 0px 30px rgba(245, 245, 245, 0.767);
+         font-size: 6em;
+         font-family: 'Press Start 2P', cursive;
+         transition-delay: 0.2s;
+         cursor: pointer;
+         
+     }
+
+     article {
+         position:relative;
+         color: transparent;
+         margin:auto;
+         text-align: center;
+         font-weight: bolder;
+         transition-duration: 0,6s;
+        }
+
+@media (max-width: 771px) {
+    
+    section:hover {
+        height: 300px;
+        width: 300px;
+        background-image: url('terra.png');
+        background-size: 114%;
+        background-position: center center;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px whitesmoke;
+        transition-duration: 0.5s;
+}
+section:hover > article > p {
+         color: rgba(0, 0, 0, 0.63);
+         text-align: center;
+         text-shadow: 0px 0px 30px rgba(245, 245, 245, 0.767);
+         font-size: 3em;
+         padding-bottom: 40px;
+         font-family: 'Press Start 2P', cursive;
+         transition-delay: 0.2s;
+         cursor: pointer;
+}
+}
+    </style>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <main>
+        <section>
+            <article>
+                <p>Hello World</p>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
