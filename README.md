@@ -6,3 +6,6 @@ https://github.com/GustavoLRR/gustavolrr.github.io/blob/main/hello-world/index.h
 
 Atividade-03 - HTML & CSS
 https://github.com/GustavoLRR/gustavolrr.github.io/tree/main/Atividade-03/index.html
+
+Atividade-04 - Finalização de estilos
+https://github.com/GustavoLRR/gustavolrr.github.io/blob/main/Atividade-04/index.html
